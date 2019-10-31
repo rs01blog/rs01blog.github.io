@@ -1,2 +1,2 @@
-# rs01blog.github.io
-RS01 Technical blog pages
+# RS01 
+Here is the repository of the technical blog RS01.

@@ -1,2 +1,2 @@
-# Hello
-Hello, World !
+## A technical blog
+Hello, technical World !
