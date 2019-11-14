@@ -1,0 +1,78 @@
+---
+---
+
+$color : rgb(128,128,128) ;
+$light_color : rgb(192,192,192) ;
+$dark_color : rgb(32,32,32) ;
+
+
+$font : Helvetica, sans-serif ;
+
+
+body {
+	padding:0;
+	margin:0;
+	font-family: $font;
+	color: $color;
+}
+
+a {
+	color : $color ;
+	text-decoration: none;
+}
+
+a:hover {
+	color: $dark_color ;
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: monospace;
+	text-align: center;
+
+	text-transform: capitalize;
+	margin-top : 0;
+	padding : 10px;
+	margin-bottom : 5px;
+	border-bottom : 1px $light_color solid ;
+	font-size : 6vh;
+}
+
+h1 a {
+	color: $dark_color;	
+}
+
+h1 a:hover {
+	color: $dark_color;	
+	text-decoration: none;
+}
+
+nav {
+
+	ul {
+		list-style-type: none ;
+		margin : 0 ;
+		padding:0 ;	
+		display: table;
+		width : 100% ;
+		border-bottom : 1px $light_color solid ;
+	}
+
+	li {
+		display: table-cell;
+		width:auto ;
+		padding:5px;
+		margin:5px;
+		font-size: 2vh;
+		text-align: center ;
+
+		a {
+			display:block;
+			text-transform: capitalize;
+		}
+		
+
+	}
+
+}
+
