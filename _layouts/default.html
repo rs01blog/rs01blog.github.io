@@ -10,36 +10,44 @@
 
 <body>
 
+	<article class="whole"> 
 
-	<header>
-		<h1><a href="/">RS01</a></h1>
-	</header>
+		<header>
+			<h1 class="title"><a href="/">RS01</a></h1>
+		</header>
 
-	<nav>
-		<ul>
-			<li><a href="tutorials">Tutorials</a></li>
-			<li><a href="thoughts">Thoughts</a></li>
-			<li><a href="overviews">Overviews</a></li>
-			<li><a href="maps">Maps</a></li>
-			<li><a href="experiments">Experiments</a></li>
-		</ul>
-	</nav>
-	<article>
+		<nav>
+			<ul>
+				<li><a href="tutorials">Tutorials</a></li>
+				<li><a href="summaries">Summaries</a></li>
+				<li><a href="thoughts">Studies</a></li>
+				<li><a href="overviews">Overviews</a></li>
+				<li><a href="experiments">Experiments</a></li>
+			</ul>
+		</nav>
 
-		<header><h2>{{page.title}}</h2></header>
-		
-		<content>
-			{{content}}
-		</content>
-	</article>
+		<article>
 
-	<footer>
-		<ul>
-			<li>Github</li>
-			<li>Twitter</li>
-			<li>CC license</li> 
-		</ul>
-	</footer>		
+			<header><h1>{{page.title}}</h1></header>
+			
+			<content>
+				<div class="content">{{content}}</div>
+			</content>
+
+			<footer>written by RS the {{page.date}}</footer>
+
+		</article>
+
+		<footer>
+			<ul>
+				<li><img src="GitHub-Mark-32px.png" width="16"> Github</li>
+				<li><img src="Twitter_Logo_Blue.svg" width="32"> Twitter</li>
+				<li>CC license</li> 
+			</ul>
+		</footer>	
+
+
+	</article>	
 
 </body>
 </html>

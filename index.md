@@ -1,6 +1,6 @@
 ---
-layout: default
 title : "Welcome !"
+layout: default
 ---
 
 Hello, technical World !
