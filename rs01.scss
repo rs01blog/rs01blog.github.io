@@ -19,7 +19,7 @@ body {
 
 @media (min-resolution: 100dpi) {
 	body {
-		font-size:5vh;
+		font-size:40px;
 		color:red ;
 	}
 }
@@ -36,7 +36,7 @@ a:hover {
 }
 
 
-@media (min-width: 1000px) {
+@media (max-resolution: 100dpi) and (min-width: 1000px) {
 	.whole {
 		width : 1000px ;	
 		border-left : 1px $light_color solid ;
