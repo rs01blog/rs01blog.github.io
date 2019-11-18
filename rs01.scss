@@ -22,6 +22,11 @@ body {
 		font-size:50px;
 		color:red ;
 	}
+
+
+	.icon {
+		height : 128px;
+	}
 }
 
 a {
@@ -125,18 +130,32 @@ a {
 			display: table;
 			width:100%;
 			border-top : 1px $light_color solid ;
-			text-align: right ;
+			text-align: center ;
 		}
 
 		li {
-			display: inline;
+			display: table-cell;
 			padding:5px;
 			font-size: 2vh;
 			text-align: center ;
-		
-			a {
-				text-decoration: none ;
-			}	
+		}
+
+		img {
+			vertical-align: middle;
+		}
+
+		a {
+			text-decoration: none ;
+		}	
+
+		.license {
+			text-align: left ;
+			font-style: italic;
+			font-size: small;
+		}
+
+		.social {
+			text-align: right ;
 		}
 	}
 
