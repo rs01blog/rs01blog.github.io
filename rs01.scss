@@ -17,6 +17,14 @@ body {
 	font-size : 20px;
 }
 
+a {
+	color : $dark_color ;
+}
+
+.icon {
+	height:32px;
+}
+
 @media (min-resolution: 100dpi) {
 	body {
 		font-size:50px;
@@ -27,11 +35,6 @@ body {
 	.icon {
 		height : 128px;
 	}
-}
-
-a {
-	color : $dark_color ;
-
 }
 
 @media (max-resolution: 100dpi) and (min-width: 1000px) {
