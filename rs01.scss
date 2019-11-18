@@ -72,13 +72,6 @@ a {
 			text-decoration: none;
 		}
 
-		p.social {
-			text-align: right;
-			padding : 5px;
-			padding-right : 10px;
-			margin:0;
-		}
-
 	}
 
 
@@ -128,20 +121,22 @@ a {
 		ul {
 			list-style-type: none ;
 			margin : 0 ;
-			padding:0 ;	
-			padding-bottom : 10px ;
+			padding:10px ;	
 			display: table;
-			width : 100% ;
+			width:100%;
 			border-top : 1px $light_color solid ;
+			text-align: right ;
 		}
 
 		li {
 			display: inline;
 			padding:5px;
-			margin:5px;
 			font-size: 2vh;
 			text-align: center ;
-			
+		
+			a {
+				text-decoration: none ;
+			}	
 		}
 	}
 
