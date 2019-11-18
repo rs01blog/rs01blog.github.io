@@ -28,13 +28,8 @@ a {
 @media (min-resolution: 100dpi) {
 	body {
 		font-size:50px;
-		color:red ;
 	}
 
-
-	.icon {
-		height : 256px;
-	}
 }
 
 @media (max-resolution: 100dpi) and (min-width: 1000px) {
@@ -154,7 +149,7 @@ a {
 		.license {
 			text-align: left ;
 			font-style: italic;
-			font-size: small;
+			font-size: 75%;
 		}
 
 		.social {
