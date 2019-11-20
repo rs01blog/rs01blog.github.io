@@ -25,27 +25,6 @@ a {
 	height:32px;
 }
 
-@media (min-resolution: 100dpi) {
-	body {
-		font-size:50px;
-	}
-
-	.icon {
-		height: 64px;
-	}
-
-}
-
-@media (max-resolution: 100dpi) and (min-width: 1000px) {
-	.whole {
-		width : 1000px ;	
-		border-left : 1px $light_color solid ;
-		border-right : 1px $light_color solid ;
-	}
-}
-
-
-
 .whole {
 	margin-left : auto ;
 	margin-right : auto ;
@@ -67,15 +46,10 @@ a {
 
 		h1 {
 			text-align: center;
-			font-size: 15vh;
-			font-family: monospace;
 			margin : 0;
 			padding : 5px;
 			border : none;
 
-			img {
-				width:60vh;		
-			}
 		}
 	
 		a {
@@ -127,24 +101,27 @@ a {
 
 	}
 
+	.content {
+		min-height : 65vh;
+	}
+
 
 	footer {
+			margin-top : 20px ;
+			border-top : 1px $light_color solid ;
 		ul {
 			list-style-type: none ;
-			margin-top : 20px ;
 			margin : 0 ;
 			padding:10px ;	
-			display: table;
+			display: inline;
 			width:100%;
-			border-top : 1px $light_color solid ;
-			text-align: center ;
 		}
 
 		li {
 			display: table-cell;
 			padding:5px;
-			font-size: 2vh;
-			text-align: center ;
+			margin:0;
+			width:50%;
 		}
 
 		img {
@@ -193,6 +170,33 @@ a {
 
 }
 
+
+@media (min-resolution: 100dpi) {
+	body {
+		font-size:50px;
+	}
+
+	.icon {
+		height: 64px;
+	}
+
+	.title img {
+		width : 80vw;
+	}
+
+}
+
+@media (max-resolution: 100dpi) and (min-width: 1000px) {
+	.whole {
+		width : 1000px ;	
+		border-left : 1px $light_color solid ;
+		border-right : 1px $light_color solid ;
+
+		.title img {
+			width : 600px;
+		}
+	}
+}
 
 
 
