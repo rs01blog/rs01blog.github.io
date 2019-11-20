@@ -48,6 +48,7 @@ a {
 			text-align: center;
 			margin : 0;
 			padding : 5px;
+			padding-top : 10px;
 			border : none;
 
 		}
@@ -64,10 +65,10 @@ a {
 	nav {
 
 
-		font-family: sans-serif;
+		font-family: monospace;
 
 		a {
-			color : $color ;
+			color : $light_color ;
 			text-decoration: none;
 		}
 
@@ -109,6 +110,7 @@ a {
 	footer {
 			margin-top : 20px ;
 			border-top : 1px $light_color solid ;
+			color: $light_color ;
 		ul {
 			list-style-type: none ;
 			margin : 0 ;
@@ -135,7 +137,7 @@ a {
 		.license {
 			text-align: left ;
 			font-style: italic;
-			font-size: 67%;
+			font-size: 80%;
 		}
 
 		.social {
@@ -150,12 +152,12 @@ a {
 .post {
 
 	h1 {
-		font-family: sans-serif ;
+		font-family: monospace ;
 		font-size: 12mm;
 
 		text-align: center ;
-		padding-bottom : 30px;
-		padding-top : 30px;
+		padding-bottom : 20px;
+		padding-top : 20px;
 		margin : 0px;
 		border-bottom: 1px $light_color solid ;
 
