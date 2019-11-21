@@ -35,8 +35,6 @@ a {
 
 	background-color: white ;
 
-
-
 	.title {
 
 		padding : 10px;
@@ -59,8 +57,6 @@ a {
 
 
 	}
-
-
 
 	nav {
 
@@ -103,7 +99,7 @@ a {
 	}
 
 	.content {
-		min-height : 65vh;
+		min-height : 50vh;
 	}
 
 
@@ -153,7 +149,8 @@ a {
 
 	h1 {
 		font-family: monospace ;
-		font-size: 12mm;
+		font-size: 4vw;
+		font-weight: bold;
 
 		text-align: center ;
 		padding-bottom : 20px;
@@ -165,11 +162,35 @@ a {
 	}
 
 	.content {
-		 padding : 20px;
+		 padding-left : 20px;
+		 padding-right : 20px;
 		 text-align: justify;
 
 	}
+}
 
+.directory {
+
+	h1 {
+		font-family: monospace ;
+		font-size: 4vw;
+		font-weight: bold;
+
+		text-align: center ;
+		padding-bottom : 20px;
+		padding-top : 20px;
+		margin : 0px;
+		border-bottom: 1px $light_color solid ;
+
+		font-weight: normal;
+	}
+
+	.content {
+		 padding-left : 20px;
+		 padding-right : 20px;
+		 text-align: justify;
+
+	}
 }
 
 
