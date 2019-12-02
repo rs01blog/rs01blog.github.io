@@ -81,8 +81,8 @@ a {
 				margin:0;
 				font-style: italic;
 				color: $color;
+				border-bottom:1px $light_color dotted ;
 				height: 100%;
-				border-right: 1px $light_color solid;
 			}
 
 			button {
@@ -122,28 +122,24 @@ a {
 
 
 	footer {
-			margin-top : 20px ;
-			border-top : 1px $light_color solid ;
-			color: $light_color ;
-
-			p {
-				text-align: center ;
-				padding : 10px;
-			}
-
-
-		img {
-			vertical-align: middle;
-		}
+		margin-top : 20px ;
+		border-top : 1px $light_color solid ;
+		color: $light_color ;
+		font-family: sans-serif;
 
 		a {
 			text-decoration: none ;
 		}	
 
 		.license {
-			text-align: left ;
+			text-align: center;
 			font-style: italic;
-			font-size: 80%;
+			font-size: smaller;
+
+			img {
+				vertical-align: middle;
+				margin-left:5px;
+			}
 		}
 	}
 
@@ -192,7 +188,7 @@ a {
 	}
 
 	.content {
-		 padding-left : 20px;
+		 padding-left : 40px;
 		 padding-right : 20px;
 		 text-align: justify;
 
