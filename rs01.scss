@@ -26,6 +26,18 @@ a {
 	vertical-align: middle;
 }
 
+.icon-set {
+	text-align: center;
+	display: inline-table;
+	margin:0px;
+	padding:5px;
+	border-left:1px $light_color solid ; 
+	
+	span {
+		display: table-cell;
+	}
+}
+
 .whole {
 	margin-left : auto ;
 	margin-right : auto ;
@@ -64,83 +76,71 @@ a {
 
 		font-family: sans-serif;
 		border-bottom : 1px $light_color solid ;
-		text-align: right;
+		display: grid;
+		grid-template-columns: 1fr 5fr 7fr 5fr;
 
 
 		.search {
 			margin:0;
-			padding:0px;
-			padding-left:5px;
+			padding:5px;
 			border-left:1px $light_color solid ;
 
 			display: inline-block;
 
+			text-align: center;
+
 			input[type=text] {
 				border:none;
-				padding : 5px;
 				margin:0;
+				margin-bottom: 1px;
+				padding-bottom : 4px;
 				font-style: italic;
 				color: $color;
 				border-bottom:1px $light_color dotted ;
-				height: 100%;
 			}
 
 			button {
 				border : none;
 				margin:0;
-				padding:5px;
-				padding-left :0;
-				padding-right :0;
 				background-color: transparent;
 				background-image: none;
 			}
 
 		}
 
-
-		.social {
-			
-			display: inline-block;
-			margin:0px;
-			
-			border-left:1px $light_color solid ;
-			padding-left:5px;
-
-			.icon {
-				padding:5px;
-				padding-left:0;
-			}
-		}
-
-
-
 	}
 
 	.content {
-		min-height : 50vh;
+		min-height : 90vh;
 	}
 
 
 	footer {
-		margin-top : 20px ;
 		border-top : 1px $light_color solid ;
 		color: $light_color ;
 		font-family: sans-serif;
+
+		display: grid;
+		grid-template-columns: 3fr 5fr 3fr 6fr 2fr;
+
+
+
+
 
 		a {
 			text-decoration: none ;
 		}	
 
-		.license {
-			text-align: center;
-			font-style: italic;
-			font-size: smaller;
-
-			img {
-				vertical-align: middle;
-				margin-left:5px;
-			}
+		p {
+			margin:0;
+			margin-top:10px;
+			margin-bottom:10px;
+			display: inline-table;
+			border: none
 		}
+
+
+
 	}
 
 }
@@ -149,18 +149,30 @@ a {
 
 .post {
 
-	h1 {
-		font-family: monospace ;
-		font-size: 4vw;
-		font-weight: bold;
-
-		text-align: center ;
-		padding-bottom : 20px;
-		padding-top : 20px;
-		margin : 0px;
+	header {
 		border-bottom: 1px $light_color solid ;
+	
+		h1 {
+			text-align: center ;
+			font-family: monospace ;
+			font-size: 4vw;
+			font-weight: bold;
 
-		font-weight: normal;
+			padding-bottom : 10px;
+			padding-top : 20px;
+			margin : 0px;
+
+			font-weight: normal;
+		}
+
+		p {
+			margin:0;
+			margin-top : 5px;
+			padding : 5px;
+			font-size: smaller ;
+			text-align: right;
+		}
+
 	}
 
 	.content {
@@ -168,6 +180,11 @@ a {
 		 padding-right : 20px;
 		 text-align: justify;
 
+	}
+
+	footer {
+		border:none ;
+		text-align:center;
 	}
 }
 
