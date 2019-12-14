@@ -15,6 +15,7 @@ body {
 	font-family: $font;
 	color: $color;
 	font-size : 20px;
+	/* background-image: url('/img/work/just-waves.png'); */
 }
 
 a {
@@ -77,29 +78,34 @@ a {
 		font-family: sans-serif;
 		border-bottom : 1px $light_color solid ;
 		display: grid;
-		grid-template-columns: 1fr 5fr 7fr 5fr;
+		grid-template-columns: 5fr 10fr 5fr;
 
 
-		.search {
+		.input {
 			margin:0;
 			padding:5px;
 			border-left:1px $light_color solid ;
 
-			display: inline-block;
+			display: inline-grid;
 
 			text-align: center;
 
 			input[type=text] {
+
+				grid-column:1 / span 9;
 				border:none;
+				
 				margin:0;
 				margin-bottom: 1px;
 				padding-bottom : 4px;
 				font-style: italic;
 				color: $color;
 				border-bottom:1px $light_color dotted ;
+				
 			}
 
 			button {
+				grid-column : 10 ;
 				border : none;
 				margin:0;
 				background-color: transparent;
@@ -124,7 +130,7 @@ a {
 		font-family: sans-serif;
 
 		display: grid;
-		grid-template-columns: 2fr 6fr 3fr 5fr 3fr;
+		grid-template-columns: 3fr 5fr 3fr 5fr 3fr;
 
 		a {
 			margin:0;
