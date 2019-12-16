@@ -25,6 +25,42 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+
+Another highlight test : 
+
+{% highlight javascript %}
+
+/*
+ * Fonctions pour gérer la géométrie 3D
+ */
+
+function vect (x,y,z) {
+    return {"x" : x , "y" : y , "z" : z } ;
+}
+
+function scalProd(v1,v2) {
+    return v1.x * v2.x + v1.y * v2.y + v1.z * v2.z ;
+}
+
+function vectProd(v1,v2) {
+    return vect ( v1.y * v2.z - v1.z * v2.y , v1.z * v2.x - v1.x * v2.z , v1.x * v2.y - v1.y * v2.x ) ;
+}
+
+function vLength(v) {
+    return Math.sqrt( scalProd(v,v) ) ;
+}
+
+function scale(coef,v) {
+    return vect ( coef*v.x , coef * v.y , coef * v.z ) ;
+}
+
+function normalize( v) {
+    var coef = 1.0 / vLength (v) ;
+    return scale ( coef , v) ;
+}
+
+{% endhighlight %}
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
