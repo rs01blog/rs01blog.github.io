@@ -1,18 +1,33 @@
 ---
 ---
 
+
+@font-face {
+  font-family: 'RS01Body';
+  src:  url('/fonts/ModernSans-Light.otf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RS01PostTitle';
+  src:  url('/fonts/CODE_Light.otf');
+  font-style: normal;
+}
+
+
 $color : rgb(128,128,128) ;
 $light_color : rgb(192,192,192) ;
 $dark_color : rgb(32,32,32) ;
 
 
-$font : serif ;
+
+$main_font : 'RS01Body' ;
 
 
 body {
 	padding:0;
 	margin:0;
-	font-family: $font;
+	font-family: $main_font;
 	color: $color;
 	font-size : 20px;
 	/* background-image: url('/img/work/just-waves.png'); */
@@ -20,6 +35,7 @@ body {
 
 a {
 	color : $dark_color ;
+
 }
 
 .icon {
@@ -32,7 +48,6 @@ a {
 	display: inline-table;
 	margin:0px;
 	padding:5px;
-	border-left:1px $light_color solid ; 
 	
 	span {
 		display: table-cell;
@@ -58,8 +73,8 @@ pre code {
 
 	.title {
 
-		padding : 10px;
-		border-bottom : 1px $light_color solid ;
+		padding : 20px;
+
 
 
 
@@ -83,7 +98,8 @@ pre code {
 
 
 		font-family: sans-serif;
-		border-bottom : 1px $light_color solid ;
+
+
 		display: grid;
 		grid-template-columns: 5fr 10fr 5fr;
 
@@ -91,13 +107,16 @@ pre code {
 		.input {
 			margin:0;
 			padding:5px;
-			border-left:1px $light_color solid ;
+			
+	
 
 			display: inline-grid;
 
 			text-align: center;
 
 			input[type=text] {
+				
+
 
 				grid-column:1 / span 9;
 				border:none;
@@ -107,6 +126,7 @@ pre code {
 				padding-bottom : 4px;
 				font-style: italic;
 				color: $color;
+
 				border-bottom:1px $light_color dotted ;
 				
 			}
@@ -121,6 +141,11 @@ pre code {
 
 		}
 
+	}
+
+	nav.content_page {
+		padding : 10px;
+		grid-template-columns: 5fr 10fr 5fr;
 	}
 
 	.content {
@@ -163,8 +188,8 @@ pre code {
 	
 		h1 {
 			text-align: center ;
-			font-family: monospace ;
-			font-size: 4vw;
+			font-family: "RS01PostTitle" ;
+			font-size: 80px;
 			font-weight: bold;
 
 			padding-bottom : 10px;
@@ -240,9 +265,14 @@ pre code {
 
 @media (max-resolution: 100dpi) and (min-width: 1000px) {
 	.whole {
-		width : 1000px ;	
-		border-left : 1px $light_color solid ;
-		border-right : 1px $light_color solid ;
+		width : 1000px ;
+
+		nav {
+	
+
+
+		}
+
 
 		.title img {
 			width : 600px;
