@@ -5,4 +5,6 @@ _site
 vendor
 *.sublime-project
 *.sublime-workspace
-img/work
+__work
+Gemfile
+Gemfile.lock
