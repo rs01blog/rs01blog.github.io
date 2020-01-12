@@ -8,28 +8,27 @@ layout: default
 	</div>
 </header>
 
-<nav>
+<nav class="browsing-page">
 
-	<p class="icon-set" style="border-left:none;">
-		<span><img src="/img/Home-Grey.svg" class="icon"></span> 
-		<span><img src="/img/History-Grey.svg" class="icon"></span> 
-		<span><img src="/img/Tree-Grey.svg" class="icon"></span> 
-		<span><img src="/img/Graph-Grey.svg" class="icon"></span> 
-		<span><img src="/img/Dice-Grey.svg" class="icon"></span> 
-	</p>
 
-	<form class="input" action="/search" method="get">
-		<input type="text" name="query" value="Type anything...">
-		<button type="submit"><img class="icon" src="/img/Right-arrow-Grey.svg"></button>
-	</form>
+		<div class="nav-bar">
 
-	<p class="icon-set">								
-		<span><img src="/img/Edit-Grey.svg"    title="Edit this page"    class="icon"></span>		
-		<span><img src="/img/Star-Grey.svg"    title="Rate this page"    class="icon"></span>	
-		<span><img src="/img/Comment-Grey.svg" title="Comment this page" class="icon"></span>		
-		<span><img src="/img/Heart-Grey.svg"   title="Like this page"    class="icon"></span>		
-		<span><img src="/img/Share-Grey.svg"   title="Share this page"   class="icon"></span>	
-	</p>
+			<div class="nav-group" >
+				<span><img src="/img/History-Grey.svg" class="icon"></span> 
+				<span><img src="/img/Tree-Grey.svg" class="icon"></span> 
+				<span><img src="/img/Graph-Grey.svg" class="icon"></span> 
+				<span><img src="/img/Dice-Grey.svg" class="icon"></span> 
+			</div>
+
+
+			<div class="nav-group"  style="text-align:right">
+				<form action="/search" method="get">
+					<input type="text" name="query" value="Type anything...">
+					<button type="submit"><img class="icon" src="/img/Right-arrow-Grey.svg"></button>
+				</form>
+			</div>
+
+		</div>
 
 	
 </nav>

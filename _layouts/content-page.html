@@ -3,23 +3,31 @@ layout: default
 ---
 
 <nav class="content_page">
+	
+	<div class="nav-bar" style="width:1000px">
 
-	<p class="icon-set" style="text-align: left">
-		<span><a href="/"><img itle="RS01, an interactive tech blog" alt="RS01" src="/img/rs01.svg" class="icon"></a></span> 
-	</p>
+		<p class="nav-group" style="text-align: left">
+			<span><a href="/"><img itle="RS01, an interactive tech blog" alt="RS01" src="/img/rs01-small.svg" class="icon"></a></span> 
+		</p>
 
-	<form class="input" action="/search" method="get">
-		<input type="text" name="query" value="Type anything...">
-		<button type="submit"><img class="icon" src="/img/Right-arrow-Grey.svg"></button>
-	</form>
+		<p class="nav-group" style="text-align:center" >	
+			<span><img src="/img/History-Grey.svg" class="icon"></span> 
+			<span><img src="/img/Tree-Grey.svg" class="icon"></span> 
+			<span><img src="/img/Graph-Grey.svg" class="icon"></span> 
+			<span><img src="/img/Dice-Grey.svg" class="icon"></span> 
+		</p>
 
-	<p class="icon-set">								
-		<span><img src="/img/Edit-Grey.svg"    title="Edit this page"    class="icon"></span>		
-		<span><img src="/img/Star-Grey.svg"    title="Rate this page"    class="icon"></span>	
-		<span><img src="/img/Comment-Grey.svg" title="Comment this page" class="icon"></span>		
-		<span><img src="/img/Heart-Grey.svg"   title="Like this page"    class="icon"></span>		
-		<span><img src="/img/Share-Grey.svg"   title="Share this page"   class="icon"></span>	
-	</p>
+		<p class="nav-group" style="text-align:right" >								
+			<span><img src="/img/Edit-Grey.svg"    title="Edit this page"    class="icon"></span>		
+			<span><img src="/img/Comment-Grey.svg" title="Comment this page" class="icon"></span>		
+			<span><img src="/img/Heart-Grey.svg"   title="Like this page"    class="icon"></span>		
+			<span><img src="/img/Share-Grey.svg"   title="Share this page"   class="icon"></span>	
+		</p>
+
+	</div>
+
+
+
 
 	
 </nav>
@@ -28,4 +36,5 @@ layout: default
 	<div class="content">
 	{{content}}
 	</div>
+
 </content>

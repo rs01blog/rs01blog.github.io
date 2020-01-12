@@ -1,6 +1,6 @@
 ---
-title: Explore
-layout: directory
+title: History
+layout: browsing-page
 ---
 
-Here you will find maps and overviews to easily find what you're looking for.
+# Latest updates

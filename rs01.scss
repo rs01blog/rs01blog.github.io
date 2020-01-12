@@ -30,7 +30,6 @@ body {
 	font-family: $main_font;
 	color: $color;
 	font-size : 20px;
-	/* background-image: url('/img/work/just-waves.png'); */
 }
 
 a {
@@ -38,27 +37,75 @@ a {
 
 }
 
+
 .icon {
 	height:32px;
 	vertical-align: middle;
 }
 
-.icon-set {
-	text-align: center;
-	display: inline-table;
-	margin:0px;
-	padding:5px;
-	
-	span {
+
+.nav-bar {
+
+	display: table;
+
+	margin-left:auto;
+	margin-right:auto;
+
+	.nav-group {
+
 		display: table-cell;
+		margin:0px;
+		margin-left: 5px;
+		margin-right: 5px;
+		padding:5px;
+		
+
+		a {
+			text-decoration: none;
+		}
+
+
+		form {
+			display: inline;
+
+			input[type=text] {
+
+				font-family: $main_font;
+
+				border:none;
+				
+				margin:0;
+				margin-bottom: 1px;
+				padding-bottom : 4px;
+				font-style: italic;
+				color: $color;
+
+				border-bottom:1px $light_color dotted ;
+					
+			}
+
+			button {
+				border : none;
+				margin:0;
+				background-color: transparent;
+				background-image: none;
+			}
+		}
+
+
+
 	}
+
 }
+
+
 
 
 pre code {
 	border:1px $light_color dashed;
 	border-radius: 10px;
 	scrollbar-color : $light_color white;
+	font-size: smaller;
 }
 
 .whole {
@@ -76,8 +123,6 @@ pre code {
 		padding : 20px;
 
 
-
-
 		h1 {
 			text-align: center;
 			margin : 0;
@@ -86,66 +131,18 @@ pre code {
 			border : none;
 
 		}
-	
-		a {
-			text-decoration: none;
-		}
-
 
 	}
 
-	nav {
+	nav.browsing-page {
 
-
-		font-family: sans-serif;
-
-
-		display: grid;
-		grid-template-columns: 5fr 10fr 5fr;
-
-
-		.input {
-			margin:0;
-			padding:5px;
-			
-	
-
-			display: inline-grid;
-
-			text-align: center;
-
-			input[type=text] {
-				
-
-
-				grid-column:1 / span 9;
-				border:none;
-				
-				margin:0;
-				margin-bottom: 1px;
-				padding-bottom : 4px;
-				font-style: italic;
-				color: $color;
-
-				border-bottom:1px $light_color dotted ;
-				
-			}
-
-			button {
-				grid-column : 10 ;
-				border : none;
-				margin:0;
-				background-color: transparent;
-				background-image: none;
-			}
-
-		}
 
 	}
 
 	nav.content_page {
 		padding : 10px;
-		grid-template-columns: 5fr 10fr 5fr;
+		grid-template-columns: 4fr 12fr 5fr;
+		text-align: center;
 	}
 
 	.content {
@@ -269,7 +266,9 @@ pre code {
 
 		nav {
 	
-
+			.nav-bar {
+				width : 600px;
+			}
 
 		}
 

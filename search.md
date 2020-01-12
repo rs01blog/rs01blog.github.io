@@ -1,6 +1,6 @@
 ---
 title: Search
-layout: directory
+layout: browsing-page
 code: search
 ---
 
