@@ -13,7 +13,16 @@ layout: default
 
 		<div class="nav-bar">
 
-			<div class="nav-group" >
+
+
+			<div class="nav-group"  style="text-align:left">
+				<form action="/search" method="get">
+					<input type="text" name="query" value="Type anything...">
+					<button type="submit"><img class="icon" src="/img/Right-arrow-Grey.svg"></button>
+				</form>
+			</div>
+
+			<div class="nav-group" style="text-align:right">
 				<span><img src="/img/History-Grey.svg" class="icon"></span> 
 				<span><img src="/img/Tree-Grey.svg" class="icon"></span> 
 				<span><img src="/img/Graph-Grey.svg" class="icon"></span> 
@@ -21,12 +30,6 @@ layout: default
 			</div>
 
 
-			<div class="nav-group"  style="text-align:right">
-				<form action="/search" method="get">
-					<input type="text" name="query" value="Type anything...">
-					<button type="submit"><img class="icon" src="/img/Right-arrow-Grey.svg"></button>
-				</form>
-			</div>
 
 		</div>
 
