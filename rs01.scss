@@ -136,16 +136,10 @@ pre code {
 
 	}
 
-	nav.browsing-page {
-
-
+	nav {
+		padding-top:10px;
 	}
 
-	nav.content_page {
-		padding : 10px;
-		grid-template-columns: 4fr 12fr 5fr;
-		text-align: center;
-	}
 
 	.content {
 		min-height : 90vh;
@@ -271,7 +265,6 @@ pre code {
 			.nav-bar {
 				width : 600px;
 			}
-
 		}
 
 
