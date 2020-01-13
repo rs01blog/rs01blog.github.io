@@ -14,13 +14,13 @@
    x="0px"
    y="0px"
    viewBox="0 0 511.999 511.999"
-   style="enable-background:new 0 0 511.999 511.999;"
    xml:space="preserve"
    sodipodi:docname="Eye-Grey.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   style="enable-background:new 0 0 511.999 511.999;"><metadata
    id="metadata49"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs47" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -35,12 +35,12 @@
    id="namedview45"
    showgrid="false"
    inkscape:zoom="0.46093841"
-   inkscape:cx="28.203334"
-   inkscape:cy="255.9995"
+   inkscape:cx="-85.895648"
+   inkscape:cy="163.16451"
    inkscape:window-x="0"
    inkscape:window-y="30"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Capa_1" />
+   inkscape:current-layer="g4" />
 <g
    id="g6"
    style="fill:#c0c0c0;fill-opacity:1">

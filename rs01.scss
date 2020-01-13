@@ -43,6 +43,23 @@ a {
 	vertical-align: middle;
 }
 
+pre code {
+	border:1px $light_color dashed;
+	border-radius: 10px;
+	scrollbar-color : $light_color white;
+	font-size: smaller;
+}
+
+
+nav {
+	padding-top:10px;
+}
+
+
+.content {
+	min-height : 90vh;
+}
+
 
 .nav-bar {
 
@@ -134,6 +151,7 @@ a {
 
 
 
+
 	footer {
 		margin:0;
 		padding:10px;
@@ -146,7 +164,6 @@ a {
 
 		.footer-group {
 			display: table-cell;
-			text-align: center;
 			width:33%;
 			padding:25px;
 
@@ -154,21 +171,31 @@ a {
 				margin-top:0;
 				padding-top:0;
 				font-weight:normal;
+				margin-bottom: 8px;
 			}
 
 			a {
 				margin:0;
 				text-decoration: none ;
 				color : $light_color;
+				img {
+					width: 48px;
+					vertical-align: middle;
+				}
 			}	
 
 			ul {
+				margin-top: 0px;
+				padding-top:0px;
 
 				list-style-type: none;
+				padding-left : 16px;
 
 				li {
 					padding-top : 10px;
-					font-style: italic;
+					font-size: smaller;
+
+
 				}
 			}
 
@@ -214,7 +241,7 @@ a {
 		 padding-left : 20px;
 		 padding-right : 20px;
 		 text-align: justify;
-
+		 min-height: 90vh;
 	}
 
 	footer {
