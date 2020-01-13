@@ -1,0 +1,61 @@
+---
+---
+
+@font-face {
+  font-family: 'RS01Body';
+  src:  url('/fonts/ModernSans-Light.otf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RS01PostTitle';
+  src:  url('/fonts/CODE_Light.otf');
+  font-style: normal;
+}
+
+
+$color : rgb(128,128,128) ;
+$light_color : rgb(192,192,192) ;
+$dark_color : rgb(32,32,32) ;
+
+
+
+$main_font : 'RS01Body' ;
+
+
+body {
+	padding:0;
+	margin:0;
+	font-family: $main_font;
+	color: $color;
+	font-size : 20px;
+}
+
+a {
+	color : $dark_color ;
+
+}
+
+
+.icon {
+	height:32px;
+	vertical-align: middle;
+}
+
+
+pre code {
+	border:1px $light_color dashed;
+	border-radius: 10px;
+	scrollbar-color : $light_color white;
+	font-size: smaller;
+}
+
+
+nav {
+	padding-top:10px;
+}
+
+
+.content {
+	min-height : 90vh;
+}
