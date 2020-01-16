@@ -154,48 +154,38 @@ nav {
 
 	footer {
 		margin:0;
-		padding:10px;
+		padding:0;
+		margin-bottom:30px;
 
 		border-top : 1px $light_color solid ;
 
-		color : $light_color;
+		color : $color;
 
-		display:block-table;
+		display:block;
 
 		.footer-group {
-			display: table-cell;
-			width:33%;
-			padding:25px;
-
-			h3 {
-				margin-top:0;
-				padding-top:0;
-				font-weight:normal;
-				margin-bottom: 8px;
-			}
+			padding: 0px;
+			margin-top: 30px;
 
 			a {
 				margin:0;
 				text-decoration: none ;
-				color : $light_color;
+				color : $color;
 				img {
-					width: 48px;
+					height:32px;
 					vertical-align: middle;
 				}
 			}	
 
 			ul {
-				margin-top: 0px;
-				padding-top:0px;
+				margin: 0px;
+				width:100%;
+
 
 				list-style-type: none;
-				padding-left : 16px;
-
+				
 				li {
-					padding-top : 10px;
 					font-size: smaller;
-
-
 				}
 			}
 
@@ -252,6 +242,10 @@ nav {
 
 
 
+
+/*
+ * Smartphones, maybe tablets
+ */
 @media (min-resolution: 100dpi) {
 	body {
 		font-size:50px;
@@ -268,6 +262,10 @@ nav {
 
 }
 
+
+/*
+ * Laptop / Desktop
+ */
 @media (max-resolution: 100dpi) and (min-width: 1000px) {
 	.whole {
 		width : 1000px ;
@@ -282,6 +280,19 @@ nav {
 
 		.title img {
 			width : 600px;
+		}
+
+
+		.footer-group {
+			width : 980px;
+			ul {
+				display: table;
+				padding : 0px;
+			}
+			li {
+				display: table-cell;
+				text-align: center;
+			}
 		}
 	}
 }
