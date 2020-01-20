@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Test Page!"
 date:   2019-11-08
 author: RS
 categories: jekyll update
@@ -16,51 +16,13 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 Jekyll also offers powerful support for code snippets:
 
 
-{% capture ruby_example %}def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endcapture %}
-
-{% include code-snippet.html language="ruby" code=ruby_example %}
+{% include code-snippet.html language="ruby" id="code1" path="code.rb" %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 
 Another highlight test : 
-
-{% capture js_example %}/*
- * Fonctions pour gérer la géométrie 3D
- */
-
-function vect (x,y,z) {
-    return {"x" : x , "y" : y , "z" : z } ;
-}
-
-function scalProd(v1,v2) {
-    return v1.x * v2.x + v1.y * v2.y + v1.z * v2.z ;
-}
-
-function vectProd(v1,v2) {
-    return vect ( v1.y * v2.z - v1.z * v2.y , v1.z * v2.x - v1.x * v2.z , v1.x * v2.y - v1.y * v2.x ) ;
-}
-
-function vLength(v) {
-    return Math.sqrt( scalProd(v,v) ) ;
-}
-
-function scale(coef,v) {
-    return vect ( coef*v.x , coef * v.y , coef * v.z ) ;
-}
-
-function normalize( v) {
-    var coef = 1.0 / vLength (v) ;
-    return scale ( coef , v) ;
-}
-
-{% endcapture %}
-{% include code-snippet.html language="javascript" code=js_example caption="A JS example..." %}
+{% include code-snippet.html language="javascript" id="code2" path="code2.js" caption="A JS example..." %}
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll

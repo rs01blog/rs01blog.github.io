@@ -43,11 +43,50 @@ a {
 	vertical-align: middle;
 }
 
-pre code {
-	border:1px $light_color dashed;
-	border-radius: 10px;
-	scrollbar-color : $light_color white;
-	font-size: smaller;
+figure {
+	pre {
+		margin-bottom : 0px;
+		padding:10px;
+		border:1px $light_color dashed;
+		border-radius: 10px;
+		code {
+			font-size: smaller;
+			scrollbar-color : $light_color white;
+			scrollbar-width: thin;
+		}
+	}
+
+	ul.buttons {
+
+		list-style-type: none;
+		margin :0; 
+		padding:0; 
+		text-align: right; 
+		padding-right: 5px;
+		border-top:none;
+		li {
+			display: inline-block;
+			a {
+				margin:0;
+				padding:0;
+
+				img {
+					margin: 4px;
+					padding:0;
+					height:16px;
+				}
+			}
+		}
+	}
+
+	figure-caption {
+		font-size:smaller;
+		text-align: center;
+		font-style: italic;
+		display:block;
+	}
+
+
 }
 
 
@@ -190,11 +229,7 @@ nav {
 			}
 
 		}
-
-
-
 	}
-
 }
 
 
@@ -292,6 +327,14 @@ nav {
 			li {
 				display: table-cell;
 				text-align: center;
+			}
+
+			ul.left li {
+				text-align: left ;
+			}
+
+			ul.right li {
+				text-align : right ;
 			}
 		}
 	}
