@@ -49,6 +49,19 @@ figure {
 		padding:10px;
 		border:1px $light_color dashed;
 		border-radius: 10px;
+
+		.snippet {
+			height:100px;
+		}
+
+		.sample {
+			height : 250px;
+		}
+
+		.example {
+			height : 600px;
+		}
+
 		code {
 			font-size: smaller;
 			scrollbar-color : $light_color white;
@@ -327,6 +340,7 @@ nav {
 			li {
 				display: table-cell;
 				text-align: center;
+				margin-left:20px;
 			}
 
 			ul.left li {

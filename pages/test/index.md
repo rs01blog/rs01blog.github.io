@@ -16,13 +16,13 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 Jekyll also offers powerful support for code snippets:
 
 
-{% include code-snippet.html language="ruby" id="code1" path="code.rb" %}
+{% include code-snippet.html language="ruby" id="code1" path="code.rb" style="snippet" %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 
 Another highlight test : 
-{% include code-snippet.html language="javascript" id="code2" path="code2.js" caption="A JS example..." %}
+{% include code-snippet.html language="javascript" id="code2" path="code2.js" style="example" caption="A JS example..." %}
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
