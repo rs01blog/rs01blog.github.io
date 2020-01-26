@@ -1,0 +1,61 @@
+{
+	"indexes" : {
+		"trigrams" : {
+			"aaa" : {
+				"identification" : {
+					"0"
+					// Données importantes sur une occurence d'un trigramme : 
+					// - Type de donnée concerné (identification de la page (titre,catégorie,...), 
+					//   contenu, accessoire (path, nom d'un fihcier lié,...))
+					// - Position dans le mot
+					// - Position du mot dans le champs
+					// - Taille du mot ? (faire un index par mot ??)
+
+				},
+				"content" : [
+				],
+				"incidental" : [
+				]
+			}
+		},
+
+		"words" : {
+
+		}
+	},
+
+	"pages" : [
+		{
+			"id" : "/pages/test/",
+			"title" : "Test-Page",
+			"description" : "This is the test content page.",
+			"lastModified" : "2020-01-26 02:31:24"
+			"files" : [
+				"/pages/test/index.md" ,
+				"/pages/test/code.rb",
+				"/pages/test/code2.js"
+			],
+			"social-links" : {
+				"github" : "https://github.com/rs01blog/....",
+				"twitter" : "https://twitter.com/rs01blog/1234455",
+				"reddit" : "https://reddit.com/...."
+			}
+		},
+		{
+			"id":"/404.md",
+			"title" : "Error 404 : Page not found.",
+			"description" : "The requested page does not exist.",
+			"files" : ["/404.md"]
+		}
+	],
+	"actions" : [
+		{
+			"id" : "comment-on-twitter",
+			"title" : "Comment page on twitter",
+			"description" : "Share this page on Twitter with a comment",
+			"link" : "javascript:commentPageOnTwitter()",
+			"availableOn" : ["/pages/.*"]
+		}
+	]
+
+}

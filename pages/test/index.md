@@ -1,6 +1,7 @@
 ---
-layout: content-page
+layout: post
 title:  "Test Page!"
+date:   2019-11-08
 author: RS
 categories: jekyll update
 ---
