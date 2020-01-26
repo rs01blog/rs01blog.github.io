@@ -9,12 +9,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="Logo_FIXED"
    data-name="Logo — FIXED"
-   viewBox="0 0 250 203.13794"
+   viewBox="0 0 264.56699 264.56693"
    version="1.1"
    sodipodi:docname="Twitter-Grey.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   width="250"
-   height="203.13794">
+   width="264.56699"
+   height="264.56693">
   <metadata
      id="metadata15">
     <rdf:RDF>
@@ -37,13 +37,13 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:window-height="1012"
      id="namedview13"
      showgrid="false"
-     inkscape:zoom="2.36"
-     inkscape:cx="49.176567"
-     inkscape:cy="111.13513"
-     inkscape:window-x="0"
+     inkscape:zoom="0.417193"
+     inkscape:cx="249.04563"
+     inkscape:cy="466.10973"
+     inkscape:window-x="1680"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="Logo_FIXED" />
@@ -55,17 +55,16 @@
   <title
      id="title6">Twitter_Logo_Blue</title>
   <rect
-     class="cls-1"
-     width="400"
-     height="400"
-     id="rect8"
-     x="-75"
-     y="-98.452065"
-     style="fill:none" />
+     style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:9.02312565;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect815"
+     width="264.56693"
+     height="264.56693"
+     x="6.2591229e-05"
+     y="0" />
   <path
      class="cls-2"
-     d="m 78.62,203.13794 c 94.34,0 145.94,-78.16 145.94,-145.940002 0,-2.22 0,-4.43 -0.15,-6.63 a 104.36,104.36 0 0 0 25.59,-26.55 102.38,102.38 0 0 1 -29.46,8.07 51.47,51.47 0 0 0 22.55,-28.37 102.79,102.79 0 0 1 -32.57,12.45 51.34,51.34 0 0 0 -87.41,46.78 145.62,145.62 0 0 1 -105.71,-53.59 51.33,51.33 0 0 0 15.88,68.47 50.91,50.91 0 0 1 -23.28,-6.42 c 0,0.21 0,0.43 0,0.65 a 51.31,51.31 0 0 0 41.15,50.280002 51.21,51.21 0 0 1 -23.16,0.88 51.35,51.35 0 0 0 47.92,35.62 102.92,102.92 0 0 1 -63.7,22 104.41,104.41 0 0 1 -12.21,-0.74 145.21,145.21 0 0 0 78.62,23"
+     d="m 81.318022,235.13136 c 95.107988,0 147.128048,-78.79968 147.128048,-147.134395 0,-2.23817 0,-4.46626 -0.15122,-6.68426 a 105.20956,105.21409 0 0 0 25.79833,-26.7673 103.21344,103.21789 0 0 1 -29.69983,8.13605 51.889001,51.891236 0 0 0 22.73357,-28.60218 103.62678,103.63125 0 0 1 -32.83514,12.55189 51.757943,51.760172 0 0 0 -88.12157,47.16285 146.80545,146.81177 0 0 1 -106.570556,-54.02858 51.747861,51.75009 0 0 0 16.00927,69.030365 51.324443,51.326653 0 0 1 -23.46951,-6.47254 c 0,0.21172 0,0.43352 0,0.65532 a 51.727698,51.729926 0 0 0 41.484984,50.6915 51.626884,51.629108 0 0 1 -23.34854,0.8872 51.768024,51.770254 0 0 0 48.310103,35.91152 103.75784,103.76231 0 0 1 -64.218556,22.18005 105.25997,105.26451 0 0 1 -12.3093988,-0.74606 146.39211,146.39842 0 0 0 79.2600158,23.18823"
      id="path10"
-     style="fill:none;fill-opacity:1;stroke:#c0c0c0;stroke-opacity:1;stroke-width:3.77952756;stroke-miterlimit:4;stroke-dasharray:none"
+     style="fill:none;fill-opacity:1;stroke:#c0c0c0;stroke-width:11.33858268;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      inkscape:connector-curvature="0" />
 </svg>
