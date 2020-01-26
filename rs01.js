@@ -20,7 +20,7 @@ function zoomOutCode(codeId) {
 }
 
 
-function codeFontSizeIndex(codeId ){
+function codeFontSizeIndex(codeId ) {
 	if ( CODE_FONT_SIZE_INDICES[codeId] == null ) {
 		CODE_FONT_SIZE_INDICES[codeId]=DEFAULT_CODE_FONT_SIZE_INDEX ;
 	}
