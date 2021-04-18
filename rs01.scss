@@ -360,9 +360,9 @@ nav {
 
 /* Media query test */
 
-@media (max-width: 600px) {
+@media (max-device-width: 500px) {
 	.smartphone-tablet {
-
+		color: green ;
 	}
 
 	.desktop-laptop {
@@ -370,12 +370,13 @@ nav {
 	}
 }
 
-@media (min-width: 600px) {
+@media (min-device-width: 500px) {
 	.smartphone-tablet {
 		display: none ;
 	}
 
 	.desktop-laptop {
+		color: blue;
 
 	}
 
