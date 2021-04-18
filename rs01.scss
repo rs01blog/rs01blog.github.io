@@ -356,3 +356,27 @@ nav {
 
 
 
+
+
+/* Media query test */
+
+@media (max-width: 600px) {
+	.smartphone-tablet {
+
+	}
+
+	.desktop-laptop {
+		display: none ;
+	}
+}
+
+@media (min-width: 600px) {
+	.smartphone-tablet {
+		display: none ;
+	}
+
+	.desktop-laptop {
+
+	}
+
+}
